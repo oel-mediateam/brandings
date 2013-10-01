@@ -9,7 +9,6 @@ body {
 	margin:0;
 	padding:0;
 	background: rgb(225,225,220);
-	font-family:
 }
 .center {
 	text-align:center;
@@ -19,7 +18,7 @@ body {
 }
 /* MAIN PAGE HEADER
 -------------------------------------------------- */
-.jumbotron {
+.smgt .jumbotron {
 	position: relative;
 	padding: 40px 0;
 	margin-bottom:10px;
@@ -29,13 +28,13 @@ body {
 	background: rgb(93,136,40);
 	border-bottom: 10px solid rgb(51,92,113);
 }
-.jumbotron h1 {
+.smgt .jumbotron h1 {
 	font-size: 50px;
 	font-weight: bold;
 	letter-spacing: -1px;
 	line-height: 1;
 }
-.jumbotron p {
+.smgt .jumbotron p {
 	font-size: 24px;
 	font-weight: 300;
 	line-height: 1.25;
@@ -44,7 +43,7 @@ body {
 
 /* MAIN NAV
 -------------------------------------------------- */
-.bs-docs-sidenav {
+.smgt .bs-docs-sidenav {
   width: 228px;
   margin: 30px 0 0;
   padding: 0;
@@ -56,24 +55,24 @@ body {
      -moz-box-shadow: 0 1px 4px rgba(0,0,0,.065);
           box-shadow: 0 1px 4px rgba(0,0,0,.065);
 }
-.bs-docs-sidenav > li > a {
+.smgt .bs-docs-sidenav > li > a {
   display: block;
   width: 190px \9;
   margin: 0 0 -1px;
   padding: 8px 14px;
   border: 1px solid rgb(225,225,220);
 }
-.bs-docs-sidenav > li:first-child > a {
+.smgt .bs-docs-sidenav > li:first-child > a {
   -webkit-border-radius: 6px 6px 0 0;
      -moz-border-radius: 6px 6px 0 0;
           border-radius: 6px 6px 0 0;
 }
-.bs-docs-sidenav > li:last-child > a {
+.smgt .bs-docs-sidenav > li:last-child > a {
   -webkit-border-radius: 0 0 6px 6px;
      -moz-border-radius: 0 0 6px 6px;
           border-radius: 0 0 6px 6px;
 }
-.bs-docs-sidenav > .active > a {
+.smgt .bs-docs-sidenav > .active > a {
   position: relative;
   z-index: 2;
   padding: 9px 15px;
@@ -83,27 +82,27 @@ body {
           box-shadow: inset 1px 0 0 rgba(0,0,0,.1), inset -1px 0 0 rgba(0,0,0,.1);
 }
 /* Chevrons */
-.bs-docs-sidenav .icon-chevron-right {
+.smgt .bs-docs-sidenav .icon-chevron-right {
   float: right;
   margin-top: 2px;
   margin-right: -6px;
   opacity: .25;
 }
-.bs-docs-sidenav > li > a:hover {
+.smgt .bs-docs-sidenav > li > a:hover {
   background-color: rgb(93,136,40);
 }
-.bs-docs-sidenav a:hover .icon-chevron-right {
+.smgt .bs-docs-sidenav a:hover .icon-chevron-right {
   opacity: .5;
 }
-.bs-docs-sidenav .active .icon-chevron-right,
-.bs-docs-sidenav .active a:hover .icon-chevron-right {
-	background-image: url(css/bootstrap/img/glyphicons-halflings.png);
+.smgt .bs-docs-sidenav .active .icon-chevron-right,
+.smgt .bs-docs-sidenav .active a:hover .icon-chevron-right {
+	background-image: url(bootstrap/img/glyphicons-halflings.png);
 	opacity: 1;
 }
-.bs-docs-sidenav.affix {
+.smgt .bs-docs-sidenav.affix {
   top: 0;
 }
-.bs-docs-sidenav.affix-bottom {
+.smgt .bs-docs-sidenav.affix-bottom {
   position: absolute;
   top: auto;
   bottom: 270px;
@@ -111,19 +110,19 @@ body {
 
 /* BODY CONTENT
 -------------------------------------------------- */
-section > .page-header {
+.smgt section > .page-header {
 	padding-bottom:5px;
 	margin-bottom:20px;
 	border-top:1px solid #CCC;
 	border-bottom:1px solid #000;
 }
-section > .page-header > h1 {
+.smgt section > .page-header > h1 {
 	font-size:36px;
 	font-weight:normal;
 	font-family:Century Gothic, sans-serif;
 	text-transform:uppercase;
 }
-section > h2 {
+.smgt section > h2 {
 	font-size:21px;
 	line-height:26px;
 	font-weight:bold;
@@ -131,36 +130,38 @@ section > h2 {
 	text-transform:uppercase;
 	margin:15px 0px;
 }
-section > .lead {
+.smgt section > .lead {
 	font-weight:400;
 	margin-bottom:10px;
 }
 /* FOOTER
 -------------------------------------------------- */
-.footer {
+.smgt .footer {
   text-align: center;
   padding: 30px 0;
   margin-top: 50px;
   border-top: 5px solid rgb(51,92,113);
   background: rgb(0,51,77);
 }
-.footer p {
+.smgt .footer p {
   margin-bottom: 10px;
   color: #FFF;
   font-size:12px;
   font-weight:normal;
 }
-.footer a, .footer a:hover, .footer a:visited {
+.smgt .footer a,
+.smgt .footer a:hover,
+.smgt .footer a:visited {
 	color:rgb(93,136,40);
 	text-decoration:underline;
 }
 /* Desktop large
 ------------------------- */
 @media (min-width: 1200px) {
-  .bs-docs-sidenav {
+  .smgt .bs-docs-sidenav {
     width: 258px;
   }
-  .bs-docs-sidenav > li > a {
+  .smgt .bs-docs-sidenav > li > a {
     width: 230px \9; /* Override the previous IE8-9 hack */
   }
 }
@@ -169,7 +170,7 @@ section > .lead {
 ------------------------- */
 @media (max-width: 980px) {
   /* When affixed, space properly */
-  .bs-docs-sidenav {
+  .smgt .bs-docs-sidenav {
     top: 0;
     width: 218px;
     margin-top: 30px;
@@ -181,15 +182,15 @@ section > .lead {
 ------------------------- */
 @media (min-width: 768px) and (max-width: 979px) {
   /* Widen masthead and social buttons to fill body padding */
-  .jumbotron {
+  .smgt .jumbotron {
     margin-top: -20px; /* Offset bottom margin on .navbar */
   }
   /* Adjust sidenav width */
-  .bs-docs-sidenav {
+  .smgt .bs-docs-sidenav {
     width: 166px;
     margin-top: 20px;
   }
-  .bs-docs-sidenav.affix {
+  .smgt .bs-docs-sidenav.affix {
     top: 0;
   }
 }
@@ -198,24 +199,24 @@ section > .lead {
 ------------------------- */
 @media (max-width: 767px) {
   /* Widen masthead and social buttons to fill body padding */
-  .jumbotron {
+  .smgt .jumbotron {
     padding: 40px 20px;
     margin-top:   -20px; /* Offset bottom margin on .navbar */
     margin-right: -20px;
     margin-left:  -20px;
   }
   /* Sidenav */
-  .bs-docs-sidenav {
+  .smgt .bs-docs-sidenav {
     width: auto;
     margin-bottom: 20px;
   }
-  .bs-docs-sidenav.affix {
+  .smgt .bs-docs-sidenav.affix {
     position: static;
     width: auto;
     top: 0;
   }
   /* Unfloat the back to top link in footer */
-  .footer {
+  .smgt .footer {
     margin-left: -20px;
     margin-right: -20px;
     padding-left: 20px;
@@ -228,19 +229,19 @@ section > .lead {
 ------------------------- */
 @media (max-width: 480px) {
   /* Downsize the jumbotrons */
-  .jumbotron h1 {
+  .smgt .jumbotron h1 {
     font-size: 50px;
   }
-  .jumbotron p,
-  .jumbotron .btn {
+  .smgt .jumbotron p,
+  .smgt .jumbotron .btn {
     font-size: 18px;
   }
-  .jumbotron .btn {
+  .smgt .jumbotron .btn {
     display: block;
     margin: 0 auto;
   }
   /* Tighten up footer */
-  .footer {
+  .smgt .footer {
     padding-top: 20px;
     padding-bottom: 20px;
   }
