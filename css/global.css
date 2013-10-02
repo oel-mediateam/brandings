@@ -1,0 +1,57 @@
+body {
+	border-top:15px solid #0f4b90;
+	padding-bottom: 20px;
+}
+
+.center {
+	text-align: center;
+}
+
+/* Custom container */
+.container-narrow {
+	margin: 0 auto;
+	max-width: 700px;
+}
+.container-narrow > hr {
+	margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+	margin: 60px 0;
+	text-align: center;
+}
+.jumbotron h1 {
+	font-size: 50px;
+	line-height: 1;
+}
+.jumbotron .btn {
+	font-size: 21px;
+	padding: 14px 24px;
+}
+.jumbotron .lead {
+	font-size: 18px;
+	line-height: 27px;
+}
+
+.footer {
+	font-size: 12px;
+	line-height: 18px;
+	color:#ccc;
+}
+
+/* Supporting marketing content */
+.marketing {
+	margin: 60px 0;
+}
+.marketing p + h4 {
+	margin-top: 28px;
+}
+
+.nav-pills li a,
+.nav-pills li a:link,
+.nav-pills li a:visited,
+.nav-pills li a:hover,
+.btn {
+	text-decoration: none;
+}

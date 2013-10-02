@@ -1,0 +1,267 @@
+@charset "UTF-8";
+/* GLOBAL
+-------------------------------------------------- */
+html {
+	width:100%;
+	height:100%;
+}
+body {
+	margin:0;
+	padding:0;
+	background: rgb(225,225,220);
+}
+.center {
+	text-align:center;
+}
+.marginTopFix20{
+	margin-top:20px;
+}
+/* MAIN PAGE HEADER
+-------------------------------------------------- */
+.himt .jumbotron {
+	position: relative;
+	padding: 40px 0;
+	margin-bottom:10px;
+	color: #fff;
+	text-align: center;
+	text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
+	background: #a5d6f3;
+	border-bottom: 10px solid #b0b7bc;
+}
+.himt .jumbotron h1 {
+	font-size: 50px;
+	font-weight: bold;
+	letter-spacing: -1px;
+	line-height: 1;
+}
+.himt .jumbotron p {
+	font-size: 24px;
+	font-weight: 300;
+	line-height: 1.25;
+	margin-bottom: 20px;
+}
+
+/* MAIN NAV
+-------------------------------------------------- */
+.himt .bs-docs-sidenav {
+  width: 228px;
+  margin: 30px 0 0;
+  padding: 0;
+  background-color: #fff;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+  -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.065);
+     -moz-box-shadow: 0 1px 4px rgba(0,0,0,.065);
+          box-shadow: 0 1px 4px rgba(0,0,0,.065);
+}
+.himt .bs-docs-sidenav > li > a {
+  display: block;
+  width: 190px \9;
+  margin: 0 0 -1px;
+  padding: 8px 14px;
+  border: 1px solid rgb(225,225,220);
+}
+.himt .bs-docs-sidenav > li:first-child > a {
+  -webkit-border-radius: 6px 6px 0 0;
+     -moz-border-radius: 6px 6px 0 0;
+          border-radius: 6px 6px 0 0;
+}
+.himt .bs-docs-sidenav > li:last-child > a {
+  -webkit-border-radius: 0 0 6px 6px;
+     -moz-border-radius: 0 0 6px 6px;
+          border-radius: 0 0 6px 6px;
+}
+.himt .bs-docs-sidenav > .active > a {
+  position: relative;
+  z-index: 2;
+  padding: 9px 15px;
+  border: 0;
+  -webkit-box-shadow: inset 1px 0 0 rgba(0,0,0,.1), inset -1px 0 0 rgba(0,0,0,.1);
+     -moz-box-shadow: inset 1px 0 0 rgba(0,0,0,.1), inset -1px 0 0 rgba(0,0,0,.1);
+          box-shadow: inset 1px 0 0 rgba(0,0,0,.1), inset -1px 0 0 rgba(0,0,0,.1);
+}
+/* Chevrons */
+.himt .bs-docs-sidenav .icon-chevron-right {
+  float: right;
+  margin-top: 2px;
+  margin-right: -6px;
+  opacity: .25;
+}
+.himt .bs-docs-sidenav > li > a:hover {
+  background-color: rgb(93,136,40);
+}
+.himt .bs-docs-sidenav a:hover .icon-chevron-right {
+  opacity: .5;
+}
+.himt .bs-docs-sidenav .active .icon-chevron-right,
+.himt .bs-docs-sidenav .active a:hover .icon-chevron-right {
+	background-image: url(bootstrap/img/glyphicons-halflings.png);
+	opacity: 1;
+}
+.himt .bs-docs-sidenav.affix {
+  top: 0;
+}
+.himt .bs-docs-sidenav.affix-bottom {
+  position: absolute;
+  top: auto;
+  bottom: 270px;
+}
+
+.himt .nav-list>.active>a,
+.himt .nav-list>.active>a:hover {
+	background: #f79762;
+}
+
+.himt .nav-list>li>a,
+.himt .nav-list .nav-header {
+	color:#f79762;
+}
+
+.himt .nav-list>li>a:hover {
+	color:#fff;
+	background: #f79762;
+}
+
+.himt .nav-list>.active>a {
+	color:#fff;
+}
+
+/* BODY CONTENT
+-------------------------------------------------- */
+.himt section > .page-header {
+	padding-bottom:5px;
+	margin-bottom:20px;
+	border-top:1px solid #CCC;
+	border-bottom:1px solid #000;
+}
+.himt section > .page-header > h1 {
+	font-size:36px;
+	font-weight:normal;
+	font-family:Century Gothic, sans-serif;
+	text-transform:uppercase;
+}
+.himt section > h2 {
+	font-size:21px;
+	line-height:26px;
+	font-weight:bold;
+	font-family:Century Gothic, sans-serif;
+	text-transform:uppercase;
+	margin:15px 0px;
+}
+.himt section > .lead {
+	font-weight:400;
+	margin-bottom:10px;
+}
+/* FOOTER
+-------------------------------------------------- */
+.himt .footer {
+  text-align: center;
+  padding: 30px 0;
+  margin-top: 50px;
+  border-top: 5px solid #b3d78b;
+  background: #3a6d8e;
+}
+.himt .footer p {
+  margin-bottom: 10px;
+  color: #FFF;
+  font-size:12px;
+  font-weight:normal;
+}
+.himt .footer a,
+.himt .footer a:hover,
+.himt .footer a:visited {
+	color:rgb(93,136,40);
+	text-decoration:underline;
+}
+/* Desktop large
+------------------------- */
+@media (min-width: 1200px) {
+  .himt .bs-docs-sidenav {
+    width: 258px;
+  }
+  .himt .bs-docs-sidenav > li > a {
+    width: 230px \9; /* Override the previous IE8-9 hack */
+  }
+}
+
+/* Desktop
+------------------------- */
+@media (max-width: 980px) {
+  /* When affixed, space properly */
+  .himt .bs-docs-sidenav {
+    top: 0;
+    width: 218px;
+    margin-top: 30px;
+    margin-right: 0;
+  }
+}
+
+/* Tablet to desktop
+------------------------- */
+@media (min-width: 768px) and (max-width: 979px) {
+  /* Widen masthead and social buttons to fill body padding */
+  .himt .jumbotron {
+    margin-top: -20px; /* Offset bottom margin on .navbar */
+  }
+  /* Adjust sidenav width */
+  .himt .bs-docs-sidenav {
+    width: 166px;
+    margin-top: 20px;
+  }
+  .himt .bs-docs-sidenav.affix {
+    top: 0;
+  }
+}
+
+/* Tablet
+------------------------- */
+@media (max-width: 767px) {
+  /* Widen masthead and social buttons to fill body padding */
+  .himt .jumbotron {
+    padding: 40px 20px;
+    margin-top:   -20px; /* Offset bottom margin on .navbar */
+    margin-right: -20px;
+    margin-left:  -20px;
+  }
+  /* Sidenav */
+  .himt .bs-docs-sidenav {
+    width: auto;
+    margin-bottom: 20px;
+  }
+  .himt .bs-docs-sidenav.affix {
+    position: static;
+    width: auto;
+    top: 0;
+  }
+  /* Unfloat the back to top link in footer */
+  .himt .footer {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+}
+
+/* Landscape phones
+------------------------- */
+@media (max-width: 480px) {
+  /* Downsize the jumbotrons */
+  .himt .jumbotron h1 {
+    font-size: 50px;
+  }
+  .himt .jumbotron p,
+  .himt .jumbotron .btn {
+    font-size: 18px;
+  }
+  .himt .jumbotron .btn {
+    display: block;
+    margin: 0 auto;
+  }
+  /* Tighten up footer */
+  .himt .footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
