@@ -47,6 +47,9 @@ body {
 .marketing p + h4 {
 	margin-top: 28px;
 }
+.row-fluid.marketing .span6 p {
+	text-align: center;
+}
 
 .nav-pills li a,
 .nav-pills li a:link,
