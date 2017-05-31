@@ -1,9 +1,7 @@
-# Program Brands & Identity Standards
+# *DEPRECATED: No longer in active development.*
+## Program Brands & Identity Standards
 
-######Marketing
 
-Author: Ethan S. Lin<br />
+Author: Ethan S. Lin
 Organization: University of Wisconsin-Extension, division of Continuing Education, Outreach & E-Learning<br />
 Publish date: October 1, 2013
-
-https://mediastreamer.doit.wisc.edu/uwli-ltc/marketing/
